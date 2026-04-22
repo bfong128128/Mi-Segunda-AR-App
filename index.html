@@ -18,10 +18,10 @@
                 // Escuchar el evento de toque en la pantalla
                 elemento.addEventListener('click', function () {
                     if (!agrandado) {
-                        elemento.setAttribute('scale', '1 1 1'); // Crece
+                        elemento.setAttribute('scale', '2 2 2'); // Crece
                         agrandado = true;
                     } else {
-                        elemento.setAttribute('scale', '0.1 0.1 0.1'); // Vuelve a la normalidad
+                        elemento.setAttribute('scale', '1 1 1'); // Vuelve a la normalidad
                         agrandado = false;
                     }
                 });
@@ -47,7 +47,7 @@
                 src="#miModelo" 
                 class="clickable" 
                 reaccionar 
-                scale="0.1 0.1 0.1" 
+                scale="1 1 1" 
                 position="0 0 0" 
                 animation="property: rotation; to: 0 360 0; loop: true; dur: 8000">
             </a-gltf-model>
