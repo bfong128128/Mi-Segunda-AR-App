@@ -18,11 +18,11 @@
                 elemento.addEventListener('click', function () {
                     if (!agrandado) {
                         // Si está normal, lo hacemos más grande
-                        elemento.setAttribute('scale', '0.8 0.8 0.8');
+                        elemento.setAttribute('scale', '0.1 0.1 0.1');
                         agrandado = true;
                     } else {
                         // Si ya está grande, lo regresamos a su tamaño original
-                        elemento.setAttribute('scale', '0.4 0.4 0.4');
+                        elemento.setAttribute('scale', '0.1 0.1 0.1');
                         agrandado = false;
                     }
                 });
@@ -47,7 +47,7 @@
                 src="#miModelo" 
                 class="clickable" 
                 reaccionar 
-                scale="0.4 0.4 0.4" 
+                scale="0.1 0.1 0.1" 
                 position="0 0 0" 
                 animation="property: rotation; to: 0 360 0; loop: true; dur: 8000">
             </a-gltf-model>
